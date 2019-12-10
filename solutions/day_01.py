@@ -1,7 +1,7 @@
-from utils import *
+from data_parser import *
 
 def main():
-    input = get_inputs_list("01")
+    input = get_inputs_1()
     total_fuel = 0
     for mass in input:
         total_fuel += calculate_fuel(mass)

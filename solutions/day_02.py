@@ -1,7 +1,7 @@
-from utils import *
+from data_parser import *
 
 def main():
-    values_list = get_inputs_list_by_comma("02")
+    values_list = get_inputs_2()
 
     executable = values_list.copy()
     executable[1] = 12

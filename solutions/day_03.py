@@ -119,8 +119,6 @@ def main():
     closest_intersection = get_closest_intersection(paths[0], paths[1], intersections)
     print ("Closest intersection: %d" % closest_intersection)
 
-
-
 def get_wire_points(instructions):
     points = set()
     position = [0,0]

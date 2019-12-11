@@ -22,3 +22,10 @@ def get_inputs_3():
         for inst in line.split(","):
             wires[i].append(inst)
     return wires
+
+def get_inputs_4():
+    file = open("../inputs/day_04.txt", "r")
+    range = []
+    for i in file.read().split("-"):
+        range.append(int(i))
+    return range
